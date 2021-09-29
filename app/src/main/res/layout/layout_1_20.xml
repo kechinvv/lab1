@@ -3,24 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <Button
         android:layout_width="100dp"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="text" />
+        android:text="text1" />
 
     <TextView
         android:layout_width="100dp"
         android:layout_height="0dp"
+        android:layout_gravity="center"
         android:layout_weight="1"
         android:gravity="center"
-        android:layout_gravity="center"
-        android:text="text" />
+        android:text="text2" />
 
     <EditText
         android:layout_width="100dp"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="center"
-        android:text="text" />
+        android:gravity="bottom"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:autofillHints="name" />
 </LinearLayout>
